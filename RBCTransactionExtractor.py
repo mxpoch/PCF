@@ -16,7 +16,7 @@ with open(filename+'.html', 'r') as webpage:
             rawdate = str(current[0]['headers'][0]).split("-")
             date = " "
             for c in reversed(rawdate): date += c
-            tranlib[date] = amount
+            tranlib[hash(date+amount)] = [date, amount]
 
-    df = pd.DataFrame(tranlib.items(), columns=["Date","$CAD"])
+    df = pd.DataFrame(tranlib.values(), columns=["Date","$CAD"])
     df.to_csv(output+'.csv', index=False)
