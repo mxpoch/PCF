@@ -1,5 +1,6 @@
 # PCF
 ### A python notebook based program to keep track of your personal cashflows and predict your future savings!
+PCF will generate the amount of money in your savings account at a certain time in the future, based on your current cashflows.
 
 Take a look:
 ![Example of a spreadsheet being used as input][examplesheet]
