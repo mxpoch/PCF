@@ -9,7 +9,7 @@ Take a look:
 
 ## How to use PCF
 PCF is a robust system where a user generates a hierarchy using two google sheets. The software then extrapolates the information and produces a simulation of the
-users expected cashflows depending on the date range they selected. To setup and use PCF requires three general steps:
+users expected cashflows depending on the date range they selected. To setup and use PCF requires the following steps:
 
 1. Creation of a Payment Hierarchy in google sheets
 2. Define incomes/expenses, payment type, and range; also in google sheets. 
