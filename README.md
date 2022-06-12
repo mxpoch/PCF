@@ -18,12 +18,15 @@ users expected cashflows depending on the date range they selected. To setup and
 
 To understand how to effectively use PCF, knowledge of how the library is structured is required. 
 ### How PCF Works
-PCF requires two seperate google sheets:
+PCF requires two seperate google sheets to interact correctly:
+
 ![Showing the two tabs of google sheets, located bottom right corner of the GUI][sheets]
-to interact correctly. 
+
 
 The sheets generate a hierarchy pictured here:
+
 ![example of the command CF.hierachy()][hierarchy]
+
 With the occurrence of each payment being displayed next to the name. The hierarchy can be thought of as a rudimentary file system, with only the files at the 
 very bottom (or leafs, in Computer Science terms) containing actual data. Selecting any of theses groups will show up as the collective sum of all its contents over time in the generated graph (see the examples at the beginning of the PCF). 
 
@@ -31,17 +34,21 @@ PCF uses the *epoch* as a starting date for the simulation (day 0). The current 
 
 ## Setting up PCF
 *Moving foreward, any **ITALICIZED** variables should be copied exactly, or PCF WILL NOT RUN*. 
-Initialize a new google sheet with your target account, and create the following sheets
+Initialize a new google sheet with your target account, and create the following sheets:
+
 ![Showing the two tabs of google sheets, located bottom right corner of the GUI][sheets]
 
 The sheet labelled *IndexTree* should be formatted as follows:
+
 ![Empty IndexTree sheet][emptyindextree]
 
 All top-level files must be parented by total. **Having disconnected nodes will cause PCF to fail**.
 See the examples at the start of this README to see an example of a valid *IndexTree* sheet.
 
 The sheet labelled *InputNodes* should be formatted as follows:
+
 ![Empty InputNodes sheet][emptyinputnodes]
+
 All sections **MUST** have a parent. **Inputs without parents will cause PCF to ignore your calculations in the cumulative total**.
 See the examples at the start of this README to see and example of a valid *InputNodes* sheet. 
 
