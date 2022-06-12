@@ -6,6 +6,7 @@ The chart is interactive, with the ability to examine certain parts of your inco
 Take a look:
 
 ![Example of a spreadsheet being used as input][examplesheet]
+![Example of an IndexTree spreadsheet][exampletree]
 ![Example of analysing sources of income and expenses in PCF][exampleuse]
 
 ## How to use PCF
