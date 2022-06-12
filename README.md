@@ -7,6 +7,6 @@ Take a look:
 
 PCF (Personal CashFlow) is hosted in Google Collab and interfaces with Google Sheets to setup your incomes. Note that this software was intended solely for Google Collab, mileage on hosting locally or on other cloud-based notebook software is untested. 
 
-[exampletree]: Media/IndexTree.gif
+[exampletree]: Media/IndexTree.PNG
 [exampleuse]: Media/ExampleUse.gif
 [examplesheet]: Media/InputNodes.PNG
