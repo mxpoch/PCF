@@ -4,6 +4,7 @@ PCF generates the total amount of cash at a certain time in the future, dependin
 The chart is interactive, with the ability to examine certain parts of your income/expenses structure to identify weakpoints in your personal finances and provide a framework of optimization for future incomes/expenses. 
 
 Take a look:
+
 ![Example of a spreadsheet being used as input][examplesheet]
 ![Example of analysing sources of income and expenses in PCF][exampleuse]
 
