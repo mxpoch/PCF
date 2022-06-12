@@ -90,20 +90,23 @@ gsheet = 'INSERT YOUR LINK TO THE GOOGLE SHEET HERE'
 CF = CashFlow(gc, gsheet)
 ```
 This will initialize the CashFlow object and allow you to run the simulation. The following commands are available to users:
-1. CF.hierarchy() | Prints out the hierarchy extracted from the google sheet
-2. CF.visualize_range(sections:list[str], startdate:str, enddate:str, timeskip:int) | Runs the simulation and generates the plot
+1. ```CF.hierarchy()``` | Prints out the hierarchy extracted from the google sheet
+2. ```CF.visualize_range(sections:list[str], startdate:str, enddate:str, timeskip:int)``` | Runs the simulation and generates the plot
 
 > Note that PCF requires the following libraries:
-> pandas (TODO: version)
-> ploty.express (TODO: version)
+> 1. pandas (TODO: version)
+> 2. ploty.express (TODO: version)
 
 For examples with further documentation, reference the docstring under each function. 
+PCF uses ploty as the interactive graph of choice. Reference the ploty documentation for further use. 
 
 ### Disclaimer:
 PCF (Personal CashFlow) is hosted in Google Collab and interfaces with Google Sheets to setup your incomes. Note that this software was intended solely for Google Collab, mileage on hosting locally or on other cloud-based notebook software is untested. 
 
-[hierarchy]: 
-[sheets]: 
+[emptyindextree]: Media/emptyindextree.PNG
+[emptyinputnodes]: Media/emptyinputnodes.PNG
+[hierarchy]: Media/Hierarchy.PNG
+[sheets]: Media/Sheets.PNG
 [exampletree]: Media/IndexTree.PNG
 [exampleuse]: Media/ExampleUse.gif
 [examplesheet]: Media/InputNodes.PNG
